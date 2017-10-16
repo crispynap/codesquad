@@ -18,7 +18,6 @@
 * git commit 은 어떻게 하는가?
 	* git commit -m "커밋 메세지"
 	* git commit --ammend 가장 최근 커밋내용에 내용 수정 (설명뿐만 아니라, 파일도 추가/수정 가능하다.)
-	* git checkout -- <파일명> 로컬의 변경내용을 변경 전 HEAD로 되돌림추가한 내용과 변경내용은 남아있음.(commit만 안한 상태)
 
 * git commit 은 얼마큼 자주 하는게 좋은가?
 	* 기능의 변경이 있을 때?
@@ -32,7 +31,7 @@
 
 * git branch 는 왜 존재할까? 어떻게 생성하나?
 	* 독립적인 작업을 하기 위해. 
-	* git branch branchName
+	* git checkout -b branchName
 
 * git branch는 언제 만드는 것이 좋을까?
 	* 원 소스를 건드리지 않고 시험적인 작업을 하고 싶을 때
