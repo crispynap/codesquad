@@ -9,5 +9,5 @@
 * 첫번째 렉쳐를 완료했다.
 	* [링크](https://github.com/crispynap/javascript-review/tree/crispynap)
 * 기타
-	* 스크럼애 대해 찾아본다
+	* 스크럼애 대해 알아보자 => 알아봤다
 	* 뭔가 같이 시작할 때. 짧게 시작 - 회고 - 리뷰 과정을 거침
