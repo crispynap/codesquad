@@ -23,6 +23,7 @@
 			- Reconcile local events into BrowserEventEmitter
 			- Moves all media events to the BrowserEventEmitter. This module now
 			- controls whether or not an event is attached locally or on the window.
+			- 
 			- Notes:
 			- This is not ready. Tests still fail. A lot of them.
 	- jquery의 [커밋 메시지1](https://github.com/jquery/jquery/pull/1525/commits)
@@ -42,7 +43,7 @@
 			- Fixes gh-3602
 			- Closes gh-3738
 	- 분석
-		- 제목: 동사가 처음에 위치하여 무엇을 하는지 먼저 명확히 한다.
+		- 제목: 동사가 처음에 위치하여 먼저 무엇을 하는지 명확히 한다.
 			- 한글의 어순에 적합한 메시지 방식을 생각하든가 영어로 쓰든가 해얄 거 같다.
 		- 제목: 약 6~70글자 이상이면 ...으로 표시된다. 대개 두 문장 이상일 경우나 의미적으로 두 가지 이상의 커밋을 담고 있을 경우 발생한다.
 			- 그러므로 커밋 메시지는 한 문장으로. 그러기 위해선 의미적으로도 한 커밋에 한 단위 수정만을 담아야 할 것 같다.
@@ -50,6 +51,6 @@
 			- 프로젝트가 일정 크기를 넘어가면 혼자 하는 프로젝트라고 해도 일목요연하게 보기에 유용할 듯하다.
 		- 본문: 보기 좋게 하기 위해 대략 7~80글자마다 강제 줄바꿈을 해주는 것으로 보인다.
 		- 본문: 짧은 설명이 필요한 경우는 몇 줄로 넘어가고 그게 넘어가면 additional:, note: 식으로 소제목을 붙여주는 듯.
-		- 본문: jquery의 경우 관련 이슈에 대한 링크를 달아둔다. Fixes#000, Closes #000
+		- 본문: jquery의 경우 관련 이슈에 대한 링크를 달아둔다. Fixes#000, Closes #000. 협업에 좋아 보인다.
 
 ### 마무리: 
