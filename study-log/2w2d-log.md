@@ -25,7 +25,7 @@
   - user.js 48: string 앞에 +를 붙이면 숫자로 변환해줌.
   - user.js 49: filter()와 map()을 쓸 필요가 있는가? for 문이 더 적절하다. 배열 조작 메소드로 연결되어 있으니까 배열을 다루는 함수처럼 보인다. 
   - user.js 53: shortTask 찾는 것은 서브 함수로 빼는 게 좋겠다.
-  - user.js 53: shortTask length가 0인지 보지 말고 shortTask를 생성할 때 null로 초기화해서 보는 게 더 간편해보이겠다.
+  - user.js 53: shortTask length가 0인지 보지 말고 shortTask를 생성할 때 null로 초기화해서 null과 비교하는 게 더 간편해보이겠다.
 - 크롱 피드백
   - 객체 리터럴이 아니라 new 연산자와 프로토타입을 썼는데, 객체를 효율적으로 만드는 방법이다.
   - 폴리필을 직접 만들어보는 것도 좋다.
