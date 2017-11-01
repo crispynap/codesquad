@@ -75,5 +75,7 @@
   - [[name]]: 함수의 이름
   - [[caller]]: 자신을 호출한 함수
   - [[arguments]]: 인수
-  - [[__proto__]]: 프로토타입
+  - [[length]]: 함수를 작성할 때 정의한 인자 개수
+  - [[__proto__]]: 프로토타입 === [[Prototype]] !== prototype
+  - prototype: 생성자를 가리킴...?
   
